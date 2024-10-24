@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/* Header */
+
+.header{
+    background-color: #f3f1f0;
+}
+
+.navegar{
+    position:relative;
+}
+
+.icono-web{
+    height: 6em;
+}
+
+.icono-busqueda{
+    height: 24px;
+}
+
+.boton-inicio-sesion{
+    display: flex;
+    justify-content: center;
+}
+
+.inicio-sesion{
+    background-color: #f2fd53;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px #201c14;
+    border-radius: 5px;
+    height: 3em;
+    width: 8em;
+    color: #201c14;
+    font-weight: 600;
+}
+
+.busqueda-input{
+    border-radius: 24px 0 0 24px;
+    border-right: none;
+    background-color: #fff;
+    border: solid 1px #999;
+}
+.busqueda-button{
+    border-radius:0 24px 24px 0;
+    background-color: #fff;
+    border: solid 1px #999;
+    border-left: none;
+}
+
+.escape-literario{
+    font-size: 1.6em;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 300;
+}
+
+/* Nav */
+
+.div-nav{
+    background-color: #fff;
+}
+
+.nav-ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-ul-li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-ul-li > a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/* Index */
+
+/* Main */
+
+/* Conoce */
+
+.espacio{
+    padding-top: 120px;
+}
+
+.div-conoce{
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+}
+
+.h1-main{
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+.lea-gratis-a{
+    background-color: #f2fd53;
+    border: solid 1px #201c14;
+    border-radius: 6px;
+    padding: 10px;
+    color: #000;
+    font-weight: 500;
+}
+
+/* Recomendacion */
+
+.recomendacion{
+    background-color: #201c14;
+    color: #fff;
+}
+
+.div-texto-reco{
+    border-bottom: solid 1px #444;    
+}
+
+.borde-reco{
+    border-left: solid 1px #444;
+    border-right: solid 1px #444;
+}
+
+.texto-reco{
+    text-align: center;
+}
+
+.texto-reco > h2{
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 100;
+    font-size: 2.5em;
+
+}
+
+.texto-reco > h2 > em{
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal; 
+    background-color: #f2fd53;
+    text-decoration: none;
+    color: #201c14;
+    padding:0 4px;
+    line-height: 1.5em;
+}
+
+.texto-reco > p{
+    font-size: .98em;
+    font-weight: 300;
+}
+
+.div-img-reco{
+    border-bottom: solid 1px #444;
+}
+
+.img-reco{
+    border: solid 5px #36332c;
+
+}
+
+.img-reco-p{
+    color: #fff;
+    text-align: center;
+}
+
+/* Original */
+
+.borde-original{
+    border-left: solid 1px #ddd;
+    border-right: solid 1px #ddd;
+}
+
+.borde-bottom-original{
+    border-bottom: solid 1px #ddd;
+}
+
+.p-original{
+    padding: 3em 0px 0px 0px;
+    text-align: center;
+}
+
+.img-item{
+    height: 250px;
+    width: 250px;
+}
+
+.div-original{
+    text-align: center;
+    font-size: .9em;
+}
+
+.autores-original{
+    border: solid 5px #ddd;
+}
+
+
+/* Descarga */
+
+.img-descarga{
+    width: 90%;
+    height: 100%;
+}
+
+.apps{
+    height: 100px;
+}
+
+.section-descargar{
+    background-color: #f9f7f6;
+}
+
+/* Curiosidad */
+
+.hr-curiosidad{
+    width: 80px;
+    height: 1px;
+    background-color: #777;
+    border: 0;
+    margin: 4em 0;
+}
+
+.div-curiosidad{
+    text-align: center;
+}
+
+.h1-curiosidad{
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+.mas-info{
+    background-color: #201c14;
+    color: #f3f1f0;
+    padding: .7em;
+    font-size: .96em;
+    border-radius: 10px;
+    font-weight: 400;
+    letter-spacing: -.2px;
+}
+
+.visita-a{
+    color: #000;
+    text-decoration: underline !important;
+    font-size: .9em;
+
+}
+
+.curiosidad-p{
+    font-size: .9em;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #f3f1f0;
+}
+
+.p-footer-1{
+    font-size: .8em;
+    text-align: start;
+}
+
+.p-footer-2{
+    font-size: .8em;
+    text-align: end;
+}
+
+.footer-ul-ul{
+    font-size: .87em;
+}
+
+.li-principal{
+    font-size: 1.5em;
+    font-family: "Playfair Display", sans-serif ;
+    text-align: center;
+}
+
+.div-footer{
+    text-align: start;
+}
+
+.apps-footer{
+    height: 6em;
+}
+
+.social{
+    text-align: start;
+}
+
+.footer-a{
+    color: #000;
+}
+
+.footer-li-li{
+    list-style: none;
+}
+
+/* Acerca de */
+
+.div-acerca-de{
+    text-align: center;
+}
+
+.h1-acerca-de{
+    font-family: "Playfair Display", sans-serif;
+    background-color: #f2fd53;
+    font-weight: 100;
+    font-size: 2.8em;
+}
+
+.lea-gratis-a-2{
+    background-color: #201c14;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: .9em;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.titulo-acerca-de{
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 100;
+    font-size: 2.5em;
+
+}
+
+.caja-acerca-de > h3{
+    font-size: 1.18em;
+}
+
+.caja-acerca-de > p{
+    font-size: .92em;
+}
+
+.poder{
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 100;
+    background-color: #f2fd53;
+}
+
+.creemos{
+    background-color: #f6f4f3;
+}
+
+/* Preguntas frecuentes */
+
+.h1-preguntas{
+    font-family: "Playfair Display", sans-serif;
+}
+
+/* Contactanos */
+
+.argentina{
+    height: 24px;
+}
+
+.li-none{
+    list-style: none;
+}
+
+.black-a{
+    color: #000;
+}
+
+/* Géneros */
+
+.img-generos{
+    border: solid 4px #aaa;
+    height: 250px;
+    width: 180px;
+}
+
+/* Autores */
+
+.img-autores{
+    border: solid 4px #aaa;
+    height: 220px;
+    width: 220px;
+}
+
+/* Perfil y registro */
+
+.sesion-registro{
+    padding: 50px;
+    border: solid 2px #ddda;
+    border-radius: 13px;
+}
